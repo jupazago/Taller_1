@@ -41,9 +41,21 @@
     \textbf{DRAM:} Está basada en condensadores donde pierden cargan progresivamente y necesitan de un circuito de refresco, memoria dinámica. \newline
     \textbf{MRAM:} Este tipo de memoria se basa en magnetismo, su manera de gestionar los datos es igual a las anteriores. \newline
     
+    \item \textbf{Memoria Cache: } Esta área de almacenamiento está dedicada a los datos usados o solicitados con más frecuencia para su recuperación a gran velocidad.
+    
+    Posee 3 subcategorías:
+    
+    \textbf{L1:} Es la que posee mayor velocidad y menor capacidad \newline
+    \textbf{L2:} Más lenta que la anterior pero posee una mayor capacidad de almacenamiento de información \newline
+    \textbf{L3:} Es la que posee mayor capacidad de almacenamiento pero a su vez es la más lenta, aunque sigue siendo mas veloz que la memoria RAM. \newline
+    
     
     \subsection{ Describa la manera como se gestiona la memoria del computador}
-    \item -----------
+    \item La gestión de memoria inicia desde el primer momento en el que se enciende la computadora, existe una memoria no volátil que se encuentra en la placa madre y se encarga de dar instrucciones para el análisis de los componentes de la computadora para comunicar si existen fallos, siendo todo correcto se efectúa el arranque normal del dispositivo, ya en funcionamiento la BIOS se encarga provee información del sistema operativo almacenada en la ROM, la RAM se encarga de traer dicha información y llevarla al procesador donde se ejecuta el arranque del sistema, mismo sistema que estará siendo utilizado en todo momento hasta el apagado de la computadora.
+    
+    Una vez cargado completamente el sistema podemos ejecutar un sin fin de aplicaciones que serán cargadas a la memoria RAM trayendo información del disco duro, principalmente solo carga las partes mas primordiales de la aplicación y posteriormente se ejecutarán los otros fragmentos según sea solicitado.
+    
+    La memoria RAM se encarga en todo momento de acceder al disco duro (SSD ó HDD), lee la información y la lleva al procesador, se ejecutan procesos y donde a medida que no se necesite información se limpia y así genera nuevos espacios de memoria que anteriormente estaban siendo ocupados. Al cerrar una apelación toda su información también es eliminada de la memoria RAM.
     
     
     \subsection{ ¿Qué hace que una memoria sea mas rápida que otra? ¿Por qué esto es importante?}
